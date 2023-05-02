@@ -1,0 +1,20 @@
+{
+    "name": "typescript_lessons",
+    "version": "1.0.0",
+    "description": "Lessons and exercises from the TypeScript course from Luiz Otávio Miranda.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "ts",
+        "typescript",
+        "js",
+        "javascript"
+    ],
+    "author": "Barata Ribeiro",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^5.0.4"
+    }
+}
