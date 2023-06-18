@@ -2,7 +2,10 @@ const path = require('path');
 
 module.exports = {
     mode: 'development',
-    entry: './src/L0019-exercise/L0019-exercise.ts',
+    entry: {
+        bundle1: './src/L0019-exercise/L0019-exercise.ts',
+        bundle2: './src/L0035-video-exercise/L0035-video-exercise.ts',
+    },
     module: {
         rules: [
             {
@@ -19,7 +22,7 @@ module.exports = {
         extensions: ['.tsx', '.ts', '.js'],
     },
     output: {
-        filename: 'bundle.js',
+        filename: '[name].js',
         path: path.resolve(__dirname, 'frontend', 'assets', 'js'),
     },
     devtool: 'source-map',
